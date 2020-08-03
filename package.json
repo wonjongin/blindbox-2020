@@ -16,6 +16,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "http://nanobyte.iptime.org/webapps/blindbox",
   "eslintConfig": {
     "extends": "react-app"
   },

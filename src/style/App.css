@@ -13,3 +13,9 @@ html{
     transform: rotate(360deg);
   }
 }
+
+@media (prefers-color-scheme:dark){
+  html{
+    background-color: rgb(45, 24, 25);
+  }
+}

@@ -3,7 +3,7 @@
     max-width: 400px;
     width: 100%;
     margin: 0 auto;
-    height: 500px;
+    height: 200px;
     
   }
 
@@ -27,9 +27,13 @@
      box-shadow: 5px 5px 5px #939ba1,-5px -5px 5px #ffffff;
      font-size: large;
      font-family: NotoSansCJKkr-Medium;
+     /* transition: all 0.7s ease; */
     }
   .sudmitnum:active{
     box-shadow: inset 5px 5px 5px #939ba1, inset -5px -5px 5px #ffffff;
+  }
+  h1{
+    text-align: center;
   }
 
   @media all and (max-width: 500px) {.formnum{max-width: 300px;
@@ -40,3 +44,7 @@
       max-width: none;
     width: 80%;
     }}
+
+    @media (prefers-color-scheme:dark){
+      
+    }
